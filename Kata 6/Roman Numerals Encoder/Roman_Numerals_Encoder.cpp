@@ -27,7 +27,7 @@
 
 #include <string>
 
-string intToRoman(int num) {
+std::string intToRoman(int num) {
     
     // String to store all possible roman numbers
     std::string symbol[] = { "M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I" };
